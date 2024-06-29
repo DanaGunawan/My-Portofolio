@@ -576,10 +576,10 @@ span{
     }
     
     .home-img img {
-        width: 60vw;
-        margin-top: 50px;
-        margin-bottom: 10px;
+        width: 70vw;
+        margin-top: 0px;
+        margin-bottom: 12px;
         margin-left: 8rem;
-        margin-right: 3rem;
+        padding: 0px;
     }
 }

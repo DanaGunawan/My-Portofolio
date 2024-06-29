@@ -576,8 +576,9 @@ span{
     }
     
     .home-img img {
-        width: 70vw;
-        margin-top: -150px;
+        width: 50vw;
+        margin-top: 50px;
+        margin-bottom: 15px;
         margin-left: 8rem;
 
     }

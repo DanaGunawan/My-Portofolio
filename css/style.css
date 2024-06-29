@@ -77,7 +77,7 @@ section {
     align-items: center;
 }
 
-.home-content h3,span {
+.home-content span {
     font-weight: 700;
 }
 .home-content h3:nth-of-type(2){
@@ -99,7 +99,7 @@ span{
     width: 35vw;
     margin-bottom: 100px;
     animation: floatImage 4s ease-in-out infinite;
-    z-index: 2;
+    z-index: 1000;
 }
 
 @keyframes floatImage{
@@ -552,7 +552,7 @@ span{
 
 @media (max-width: 450px) {
     html {
-        font-size: 50%;
+        font-size: 40%;
     }
 
     .contact form .input-box input {
@@ -561,5 +561,10 @@ span{
 
     .technology-container {
         grid-template-columns: 1fr;
+    }
+
+    .multiple-text {
+        font-weight: 350;
+        font-size: 3rem;
     }
 }

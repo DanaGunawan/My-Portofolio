@@ -1,6 +1,6 @@
 /* Ketik Back-end */
 const typed = new Typed('.multiple-text', {
-    strings: ['Back-end Developer'],
+    strings: ['Back-end Developer','Front-End Developer'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
